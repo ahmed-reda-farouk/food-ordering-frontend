@@ -8,12 +8,13 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
         <Link
           to="/"
-          className="flex items-center space-x-1 p-1 bg-white border border-orange-300 rounded-full shadow-sm transition-transform duration-300 ease-in-out hover:scale-105"
+          className="flex items-center p-1 bg-white border border-orange-300 rounded-full shadow-sm transition-transform duration-300 ease-in-out hover:scale-105"
         >
-          <span className="text-xl font-semibold tracking-wide text-orange-600">
-            Foodo
-          </span>
-          <span className="text-gray-600 text-base">.com</span>
+          <img
+            src="/images/logo.png"
+            alt="Foodo Logo"
+            className="h-10 w-auto"
+          />
         </Link>
         <div className="md:hidden">
           <MobileNav />
