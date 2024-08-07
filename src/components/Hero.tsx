@@ -1,4 +1,4 @@
-import hero from "../assets/t2.jpg"; // Adjust path as needed
+import hero from "../assets/t2.jpg";
 
 const Right = ({ className = "w-6 h-6" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
@@ -22,11 +22,11 @@ const Hero = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-4 text-sm justify-center">
           <button className="flex justify-center bg-primary uppercase items-center gap-2 text-white px-4 py-2 rounded-full">
-            Order now
+            <a href="https://food-o.onrender.com/search/E" style={{ textDecoration: 'none' }}>Order now</a>    
             <Right />
           </button>
           <button className="flex justify-center bg-white uppercase items-center gap-2 text-primary px-4 py-2 rounded-full border border-primary">
-            Learn more
+            <a href="https://www.linkedin.com/in/a7med-rf/" style={{ textDecoration: 'none' }}>Learn more</a>
             <Right />
           </button>
         </div>
